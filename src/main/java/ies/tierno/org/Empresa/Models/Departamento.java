@@ -1,4 +1,4 @@
-package ies.tierno.org.Empresa;
+package ies.tierno.org.Empresa.Models;
 
 import java.util.ArrayList;
 import java.util.List;

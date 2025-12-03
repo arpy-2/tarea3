@@ -1,4 +1,4 @@
-package ies.tierno.org.Empresa;
+package ies.tierno.org.Empresa.Models;
 
 public class Empleado {
     private String nif;

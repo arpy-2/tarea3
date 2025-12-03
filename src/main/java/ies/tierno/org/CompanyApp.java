@@ -1,5 +1,10 @@
 package ies.tierno.org;
 
+import ies.tierno.org.Empresa.Models.Departamento;
+import ies.tierno.org.Empresa.Models.Empleado;
+import ies.tierno.org.Empresa.Models.Empresa;
+import ies.tierno.org.Empresa.Readers.EmpresaReader;
+
 import java.util.Scanner;
 
 public class CompanyApp {
@@ -23,11 +28,10 @@ public class CompanyApp {
         // Menú
         int opcion;
         do {
-            System.out.println("\n--- MENÚ ---");
             System.out.println("1. Mostrar datos de un departamento");
             System.out.println("2. Mostrar empleados de un departamento");
             System.out.println("3. Mostrar datos de un empleado en un departamento");
-            System.out.println("0. Salir");
+            System.out.println("4. Salir");
             System.out.print("Elige opción: ");
             opcion = Integer.parseInt(sc.nextLine());
 
